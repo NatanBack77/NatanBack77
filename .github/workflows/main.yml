@@ -1,3 +1,184 @@
+Ir para o conteúdo
+Comunidade DEV
+Procurar...
+
+Conecte-se
+Criar uma conta
+
+0
+Ir para comentários
+4
+Salvar
+
+Imagem de capa de Como adicionar o Snake Game (jogo da cobrinha) no seu perfil do Github 🐍
+Henrique Lopes
+Henrique Lopes
+postado em4 de janeiro. de 2022
+
+
+6
+
+3
+Como adicionar o Snake Game (jogo da cobrinha) no seu perfil do Github 🐍
+#
+GitHub
+Primeiramente devo deixar claro que esse artigo foi desenvolvido com base em vários outros artigos e reconstruído para deixar o mais claro possível a forma de inserir o Snake Game em seu perfil.
+
+Funcionamento. “Contribuições no último ano”:
+Basicamente o jogo Snake funciona realizando uma coleta de sua tabela de contribuições no Github. ele faz a renderização dessas informações e gera dois arquivos, um em formato gif e outro em svg. São esses arquivos que utilizaremos para inserir a animação no perfil do Github.
+
+Repositório do projeto a ser utilizado: Platane/snk
+
+Exemplo
+
+Requisito. "Base do Repositório":
+Para que você possa cumprir as obrigações é necessário que você tenha o repositório do perfil (repositório com o mesmo nome de usuário), porém para gerar os arquivos também funciona em outro repositório.
+
+Ações. "Configuração inicial":
+Inicialmente é necessário que você acesse o repositório escolhido e vá em Configurações.
+
+Configuração inicial
+
+No menu vertical ao lado esquerdo selecione o menu Ações e em seguida ative a permissão “Permitir todas as ações”. Também é possível selecionar diretamente o repositório.
+
+Ative a permissão
+
+Ações. "Criando Gerador":
+Agora temos o repositório configurado para adicionar o "script" para gerar os arquivos. No repositório, vá em Actions.
+
+Criando o gerador
+
+Em seguida vamos usar “Simple workflow” apenas com o mínimo necessário para rodar o código.
+
+Configurando
+
+Agora é apenas alterar o nome do arquivo e a cor do código de configuração com seu usuário.
+
+Alterar jnome do arquivo
+
+alterando o nome de usuário
+# Nome da Actions:  
+name: Snake Game
+
+# Controlador do tempo que sera feito a atualização dos arquivos.
+on:
+  schedule:
+      # Será atualizado a cada 5 horas.
+    - cron: "0 */5 * * *"
+
+# Permite executar na na lista de Actions (utilizado para testes de build).
+  workflow_dispatch:
+
+# Regras
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      - uses: actions/checkout@v2
+
+    # Repositorio que será utilizado para gerar os arquivos.
+      - uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: nomeUsuario #Seu usuario
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          svg_out_path: dist/github-contribution-grid-snake.svg
+
+      - run: git status
+
+      # Para as atualizações.
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          force: true
+
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          # the output branch we mentioned above
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+Retornando na opção Actions do repositório, clique em “Run workflow”:
+
+Repositório
+
+Pasta dos arquivos:
+Em seu repositório cliente em main e selecione a saída do branch:
+saída
+
+Aqui estão os arquivos gerados que você pode usar para entender:
+
+Arquivos
+
+Código Github para utilização:
+
+![snake gif](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/blob/output/github-contribution-grid-snake.svg)
+
+Principais comentários (0)
+
+Subscribe
+foto
+Adicione à discussão
+Código de Conduta • Denunciar abuso
+profile
+MultiversX
+PROMOTED
+
+day hackathon
+
+Join the hackathon online
+If you can code, join #xDayHackathon!
+
+Rust, go, typescript, python, c/c++.
+
+Develop tools, scripts, smart contracts, or even a fully-fledged app.
+
+Learn More
+
+Leia a seguir
+imagem de perfil de emmanuelnk
+Simplificando fluxos de trabalho de ações do GitHub por meio de Typescript
+Emmanuel N. Kyeyune30 de agosto
+
+imagem do perfil de sibiraj
+Desativar anotações em ações do Github
+Sibiraj-3 de setembro
+
+imagem do perfil de Zafarurakov
+Lista C#
+Zafar Urakov-21 de setembro
+
+imagem de perfil de iamcymentho
+Explorando GitHub Copilot (AI): revolucionando o desenvolvimento de código
+Odumosu Mateus19 de setembro
+
+
+Henrique Lopes
+Seguir
+"Não há razão alguma em usar a palavra “impossível” para descrever algo que claramente pode acontecer."
+INGRESSOU
+5 do conjunto. de 2021
+Tendências na comunidade DEV 
+Imagem do perfil de Michael Tharrington
+O que você está aprendendo neste fim de semana?
+# codenewbie # discutir # aprendizagem # iniciantes
+Imagem do perfil de Ben Halpern
+Segunda-feira meme
+# discutir # bebedouro # piadas
+Imagem de perfil de Tália
+Você já teve momentos assim?
+# discutir
+DEV Community
+
+Image description
+
+Create An Account on DEV
+
 # Nome da Actions:  
 name: Snake Game
 
@@ -44,3 +225,21 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+Comunidade DEV— Uma rede social construtiva e inclusiva para desenvolvedores de software. Com você em cada passo da sua jornada.
+
+Lar
+Podcasts
+Vídeos
+Tag
+Perguntas frequentes
+Anuncie no DEV
+Sobre
+Contato
+Guias
+Comparações de software
+Código de Conduta
+política de Privacidade
+Termos de uso
+Construído emPrimeiro- oCódigo abertosoftware que alimentaDEVe outras comunidades inclusivas.
+
+Feito com amor eRuby nos trilhos. Comunidade DEV © 2016 - 2023.
