@@ -30,4 +30,5 @@
 <image aligh="center" alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/> 
 <img src="https://github.com/NatanBack77/NatanBack77/blob/output/github-contribution-grid-snake.svg"/>
 
+
 </div>
