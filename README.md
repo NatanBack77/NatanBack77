@@ -7,8 +7,9 @@
 
 <div>
 <a href="https://github.com/NatanBack77">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NatanBack77&show_icons=true&theme=tokyonight">
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NatanBack77&layout=compact&show_icons=true&theme=tokyonight">
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NatanBack77&show_icons=true&bg_color=0F0F0F&border_radius=4.5&border_color=30363D&title_color=A12424&text_color=FFFFFF&icon_color=A12424&theme=transparent">
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NatanBack77&layout=compact&show_icons=true&bg_color=0F0F0F&border_radius=4.5&border_color=30363D&title_color=A12424&text_color=FFFFFF&theme=transparent">
+
 </div>
 
 
