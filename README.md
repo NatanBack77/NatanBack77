@@ -7,8 +7,9 @@
 
 <div>
 <a href="https://github.com/NatanBack77">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NatanBack77&show_icons=true&bg_color=0F0F0F&border_radius=4.5&border_color=30363D&title_color=A12424&text_color=FFFFFF&icon_color=A12424&theme=transparent">
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NatanBack77&layout=compact&show_icons=true&bg_color=0F0F0F&border_radius=4.5&border_color=30363D&title_color=A12424&text_color=FFFFFF&theme=transparent">
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NatanBack77&show_icons=true&bg_color=0D1117&border_radius=4.5&border_color=30363D&title_color=267cf7&text_color=FFFFFF&icon_color=F78166&theme=transparent">
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NatanBack77&layout=compact&show_icons=true&bg_color=0D1117&border_radius=4.5&border_color=30363D&title_color=267cf7&text_color=FFFFFF&theme=transparent">
+</div>
 
 </div>
 
@@ -20,7 +21,7 @@
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](natan.devback@gmail.com)
   
 
-<h2>Tecnologias que uso no meu dia </h2>
+<h2>Soft Skills </h2>
 <div style="display: inline_block"><br/>
 <image aligh="center" alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
 <image aligh="center" alt="Laravel" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/> 
