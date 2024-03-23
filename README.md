@@ -21,7 +21,7 @@
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](natan.devback@gmail.com)
   
 
-<h2>Soft Skills </h2>
+<h2>Hard Skills </h2>
 <div style="display: inline_block"><br/>
 <image aligh="center" alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
 <image aligh="center" alt="Laravel" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/> 
