@@ -14,16 +14,14 @@
 </div>
 
 
+
+### Hard Skills ⚡️
+
+[![My Skills](https://skillicons.dev/icons?i=js,ts,express,nestjs,nodejs,php,py,postgres,mysql,linux,docker,kubernetes,githubactions,terraform)](https://skillicons.dev)
+
 ### Formas de Contato
   
 [![linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/natanael-marcelino-78487b291/)
 [![Instagram](https://skillicons.dev/icons?i=instagram)]()
 [![Email](https://skillicons.dev/icons?i=email)](natan.devback@gmail.com)
   
-### Hard Skills ⚡️
-
-[![My Skills](https://skillicons.dev/icons?i=js,ts,express,nestjs,nodejs,php,py,postgres,mysql,linux,docker,kubernetes,githubactions,terraform)](https://skillicons.dev)
-
-
-![snake gif](https://github.com/NatanBack77/NatanBack77/blob/output/github-contribution-grid-snake.svg)
-
