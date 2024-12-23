@@ -5,6 +5,8 @@
 - ⚡ fato engraçado: O riso é contagioso. Quando vemos alguém rindo, tendemos a rir também, mesmo que não entendamos o motivo.
      Então sorria 😊
 
+
+
 <div>
 <a href="https://github.com/NatanBack77">
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=NatanBack77&show_icons=true&bg_color=0D1117&border_radius=4.5&border_color=30363D&title_color=267cf7&text_color=FFFFFF&icon_color=F78166&theme=transparent">
@@ -25,3 +27,18 @@
 [![Instagram](https://skillicons.dev/icons?i=instagram)]()
 [![Email](https://skillicons.dev/icons?i=email)](natan.devback@gmail.com)
   
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="github contribution grid snake animation"
+    src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+  />
+</picture>
