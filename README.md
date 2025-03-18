@@ -12,7 +12,7 @@
 
 ### Hard Skills ⚡️
 
-[![My Skills](https://skillicons.dev/icons?i=js,ts,express,nestjs,nodejs,php,go,py,postgres,mysql,linux,docker,kubernetes,githubactions,terraform)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,ts,php,py,go,express,nestjs,nodejs,postgres,mysql,linux,docker,kubernetes,githubactions,terraform)](https://skillicons.dev)
 
 ### Formas de Contato
   
