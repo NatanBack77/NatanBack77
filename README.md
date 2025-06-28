@@ -14,6 +14,11 @@
 
 [![My Skills](https://skillicons.dev/icons?i=js,ts,php,py,go,express,nestjs,nodejs,postgres,mysql,linux,docker,kubernetes,githubactions,terraform)](https://skillicons.dev)
 
+### GitHub Stats ⚡
+<div style="flex: 1; max-width: 45%;">
+        <img align="left" width="50%" alt="if you see this, it means my metrics are not working" src="./github-metrics.svg">
+</div>
+
 ### Formas de Contato
   
 [![linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/natanael-marcelino-78487b291/)
