@@ -26,11 +26,7 @@ I’m always open to collaborating on innovative projects and growing within the
 ⚡ Let’s build scalable and meaningful technology together!
 <hr>
  <br>
-<div>
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NatanBack77&show_icons=true&bg_color=0D1117&border_radius=4.5&border_color=30363D&title_color=267cf7&text_color=FFFFFF&icon_color=F78166&theme=transparent">
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NatanBack77&layout=compact&show_icons=true&bg_color=0D1117&border_radius=4.5&border_color=30363D&title_color=267cf7&text_color=FFFFFF&theme=transparent">
-</div>
-
+ 
 ### Hard Skills ⚡️
 [![My Skills](https://skillicons.dev/icons?i=js,ts,php,py,go,express,nestjs,nodejs,postgres,mysql,linux,docker,kubernetes,githubactions,terraform)](https://skillicons.dev)
 
